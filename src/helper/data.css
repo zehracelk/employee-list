@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    border-radius: 50%;
+    width:70%;
+}
+
+.section{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.name{
+    font-weight: bold;
+}
+
+.age, .mail{
+    color: gray;
+}
